@@ -571,7 +571,7 @@ textarea { resize: vertical; min-height: 110px; }
 
 /* Footer */
 .site-footer {
-  background: var(--warm-white);
+  background: #ffffff;
   color: var(--text);
   padding: 60px 0 30px;
   border-top: 1px solid rgba(38,63,53,0.08);
