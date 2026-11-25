@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 360" role="img" aria-label="Mapa del sur de Chile">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9e7e3"/>
+      <stop offset="1" stop-color="#f8f7f1"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#65765A"/>
+      <stop offset="1" stop-color="#263F35"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="360" fill="url(#sea)"/>
+  <!-- simplified southern Chile silhouette -->
+  <path d="M30 10
+           C 40 8, 70 8, 82 14
+           L 88 40 L 92 70 L 90 100 L 95 135 L 92 170 L 96 205 L 90 240 L 88 275 L 82 305 L 76 330 L 68 350 L 58 355 L 48 348 L 40 330 L 34 300 L 30 265 L 32 230 L 28 195 L 30 160 L 26 125 L 28 90 L 24 55 L 30 10 Z"
+        fill="url(#land)" stroke="#263F35" stroke-width="1.2"/>
+  <!-- city dots -->
+  <g fill="#F8F7F1" stroke="#263F35" stroke-width="0.8">
+    <circle cx="52" cy="60" r="3"/><text x="58" y="63" font-size="7" fill="#263F35" font-family="system-ui,sans-serif">Valdivia</text>
+    <circle cx="56" cy="100" r="3"/><text x="62" y="103" font-size="7" fill="#263F35" font-family="system-ui,sans-serif">Pucón</text>
+    <circle cx="50" cy="135" r="3"/><text x="56" y="138" font-size="7" fill="#263F35" font-family="system-ui,sans-serif">Puerto Varas</text>
+    <circle cx="46" cy="230" r="3"/><text x="52" y="233" font-size="7" fill="#263F35" font-family="system-ui,sans-serif">Coyhaique</text>
+    <circle cx="50" cy="320" r="3"/><text x="56" y="323" font-size="7" fill="#263F35" font-family="system-ui,sans-serif">Punta Arenas</text>
+  </g>
+  <text x="60" y="20" text-anchor="middle" font-size="9" font-weight="600" fill="#F8F7F1" font-family="Georgia,serif">Sur de Chile</text>
+</svg>
