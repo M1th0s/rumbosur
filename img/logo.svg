@@ -5,6 +5,7 @@
       <stop offset="1" stop-color="#65765A"/>
     </linearGradient>
   </defs>
+  <rect width="260" height="60" fill="#ffffff"/>
   <!-- Icon: compass + mountain -->
   <g transform="translate(6,6)">
     <circle cx="24" cy="24" r="22" fill="none" stroke="url(#g)" stroke-width="2.5"/>
