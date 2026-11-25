@@ -606,7 +606,7 @@ textarea { resize: vertical; min-height: 110px; }
 /* Floating WhatsApp button */
 .whatsapp-float {
   position: fixed;
-  right: 24px;
+  left: 24px;
   bottom: 24px;
   z-index: 200;
   display: inline-flex;
