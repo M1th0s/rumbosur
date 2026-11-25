@@ -578,7 +578,7 @@ textarea { resize: vertical; min-height: 110px; }
 }
 .footer-inner {
   display: grid;
-  grid-template-columns: 1.4fr auto 1fr auto;
+  grid-template-columns: 1.6fr 1fr auto;
   gap: 40px;
   align-items: start;
 }
@@ -592,7 +592,7 @@ textarea { resize: vertical; min-height: 110px; }
   width: auto;
   opacity: 0.85;
 }
-.footer-brand img { height: 44px; margin-bottom: 12px; }
+.footer-brand img { height: 140px; width: auto; margin-bottom: 12px; }
 .footer-brand p { font-family: var(--font-serif); font-style: italic; color: var(--text-soft); }
 .footer-links {
   display: flex;
